@@ -15,3 +15,44 @@
  */
  @import "bootstrap-sprockets";
  @import "bootstrap";
+
+ body {
+   background: url("background.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ }
+
+ .navbar.navbar-default {
+   background-color: aliceblue;
+ }
+
+ .navbar-text.navbar-link.navbar-right {
+   text-decoration: none;
+   transition: background, 0.15s, ease;
+
+ }
+
+ .done-and-delete {
+   padding-top: 1.2em;
+ }
+
+ .col-md-6.col-md-offset-3 {
+   background: rgba(192,192,192,0.8);
+   border-radius: 1em;
+ }
+
+.row.item {
+  border-bottom: 1px solid black;
+  margin: 2px;
+}
+
+.fa.fa-check {
+  font-size: 1.6em;
+  color:#55AE3A;
+}
+
+.fa.fa-trash {
+  font-size: 1.6em;
+}
